@@ -1,45 +1,35 @@
 # VBP Solutions Website
 
-A professional business website for VBP Solutions AI automation services.
+Professional business website for VBP Solutions AI automation services.
+
+## Features
+
+✅ **Responsive Design** - Works on all devices  
+✅ **Professional Color Scheme** - Deep Blue, Slate Gray, Accent Blue branding  
+✅ **Contact Form** - Opens default email client with pre-filled message  
+✅ **Calendly Integration** - Direct booking links throughout site  
+✅ **SEO Optimized** - Meta tags, descriptions, Open Graph  
+✅ **Legal Pages** - Privacy Policy and Terms of Service included  
 
 ## GitHub Pages Deployment
 
-### Quick Deploy Steps:
-
-1. **Create a new GitHub repository** for your website
-2. **Upload all files** from this folder to your repository
+1. **Create repository** on GitHub
+2. **Upload all files** from this folder
 3. **Enable GitHub Pages**:
-   - Go to repository Settings → Pages
-   - Set Source to "Deploy from a branch"
-   - Select "main" branch and "/ (root)" folder
-   - Click Save
+   - Settings → Pages → Deploy from branch → main → / (root)
+4. **Custom domain**: Already configured for vbpsolutions.net
 
-### Custom Domain Setup (Optional):
+## Contact Form Options
 
-If you want to use `vbpsolutions.com`:
-1. Update the `CNAME` file with your actual domain
-2. Configure your domain's DNS settings:
-   - Add a CNAME record pointing to `yourusername.github.io`
-   - Or use A records pointing to GitHub's IPs
-3. In GitHub Pages settings, add your custom domain
+**Current**: Opens email client with pre-filled message  
+**Upgrade options**: Formspree, EmailJS, or Netlify Forms for automatic delivery
 
-### Files Included:
+## File Structure
 
-- `index.html` - Main website file
-- `404.html` - Handles routing for single-page application
-- `assets/` - CSS and JavaScript files
-- `CNAME` - Custom domain configuration
+- `index.html` - Main website
+- `404.html` - Handles SPA routing  
+- `assets/` - Optimized CSS and JavaScript
+- `CNAME` - Domain configuration
 - `.nojekyll` - Disables Jekyll processing
 
-### Features:
-
-- ✅ Responsive design
-- ✅ Professional color scheme
-- ✅ Contact forms linked to Calendly
-- ✅ Privacy Policy and Terms of Service pages
-- ✅ SEO optimized
-- ✅ Ready for GitHub Pages hosting
-
-### Support:
-
-For questions about the website, contact: info@vbpsolutions.com
+Website ready for immediate deployment to GitHub Pages.
