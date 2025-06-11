@@ -44,9 +44,10 @@ github-deploy/
 - SEO optimization
 - Performance optimized assets
 
-## Contact Form
-- Configured to send emails to: vpascetti@vbpsolutions.net
-- Uses Formspree endpoint: movwjojg
+## Get Started Integration
+- "Get Started" button links to Notion intake form
+- Form URL: https://glittery-cover-394.notion.site/20f3b2b980e680609718c90fef422c5c?pvs=105
+- Integrates with your existing automation workflows
 - No backend required
 
 ## Support
